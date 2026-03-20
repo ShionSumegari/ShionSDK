@@ -1,0 +1,12 @@
+{
+    "installed": [
+        {
+            "id": "applovinsdk",
+            "version": "release_8_6_1"
+        },
+        {
+            "id": "googleadsmobile",
+            "version": "0.0.0"
+        }
+    ]
+}

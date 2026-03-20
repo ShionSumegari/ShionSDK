@@ -1,0 +1,22 @@
+{
+    "name": "ShionSDK.Editor",
+    "rootNamespace": "Shion.SDK.Editor",
+    "references": [
+        "ShionSDK.Core",
+        "MaxSdk.Scripts",
+        "MaxSdk.Scripts.IntegrationManager.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        "System.IO.Compression.FileSystem"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  m_DefaultGroup: 0c4ebf30927714cca953938cd88974cd
+  m_currentHash:
+    serializedVersion: 2
+    Hash: 02a18efea3f89d45a3c067f9fa91824b
+  m_OptimizeCatalogSize: 0
+  m_BuildRemoteCatalog: 0
+  m_BundleLocalCatalog: 0
+  m_CatalogRequestsTimeout: 0
+  m_DisableCatalogUpdateOnStart: 0
+  m_IgnoreUnsupportedFilesInBuild: 0
+  m_UniqueBundleIds: 0
+  m_NonRecursiveBuilding: 1
+  m_CCDEnabled: 0
+  m_maxConcurrentWebRequests: 3
+  m_ContiguousBundles: 1
+  m_StripUnityVersionFromBundleBuild: 0
+  m_DisableVisibleSubAssetRepresentations: 0
+  m_ShaderBundleNaming: 0
+  m_ShaderBundleCustomNaming: 
+  m_MonoScriptBundleNaming: 0
+  m_CheckForContentUpdateRestrictionsOption: 0
+  m_MonoScriptBundleCustomNaming: 
+  m_RemoteCatalogBuildPath:
+    m_Id: 
+  m_RemoteCatalogLoadPath:
+    m_Id: 
+  m_ContentStateBuildPathProfileVariableName: <default settings path>
+  m_CustomContentStateBuildPath: 
+  m_ContentStateBuildPath: 
+  m_BuildAddressablesWithPlayerBuild: 0
+  m_overridePlayerVersion: '[UnityEditor.PlayerSettings.bundleVersion]'
+  m_GroupAssets:
+  - {fileID: 11400000, guid: ed8a6fbaeb169429cadfaf1e26c0209d, type: 2}
+  - {fileID: 11400000, guid: 045583189d0b9467ca34f67791a7cfcf, type: 2}
+  m_BuildSettings:
+    m_CompileScriptsInVirtualMode: 0
+    m_CleanupStreamingAssetsAfterBuilds: 1
+    m_LogResourceManagerExceptions: 1
+    m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
+  m_ProfileSettings:
+    m_Profiles:
+    - m_InheritedParent: 
+      m_Id: ee48ffc768de84172914fbd0a623ade3
+      m_ProfileName: Default
+      m_Values:
+      - m_Id: 067bd1afc23c543d5b4e13eccaa6103d
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 32bfc578280af451b8c44d1afc9e36cd
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: a29aba12e3b084bd680fb4fbb2e3532b
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: b776e16fa3ea546be9cd98f6ba85f380
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: e333437de4e4f42679b2aeb7f19c0870
+        m_Value: testlua.b-cdn.net/Test
+    m_ProfileEntryNames:
+    - m_Id: 067bd1afc23c543d5b4e13eccaa6103d
+      m_Name: Remote.LoadPath
+      m_InlineUsage: 0
+    - m_Id: 32bfc578280af451b8c44d1afc9e36cd
+      m_Name: Remote.BuildPath
+      m_InlineUsage: 0
+    - m_Id: a29aba12e3b084bd680fb4fbb2e3532b
+      m_Name: Local.BuildPath
+      m_InlineUsage: 0
+    - m_Id: b776e16fa3ea546be9cd98f6ba85f380
+      m_Name: Local.LoadPath
+      m_InlineUsage: 0
+    - m_Id: e333437de4e4f42679b2aeb7f19c0870
+      m_Name: BuildTarget
+      m_InlineUsage: 0
+    m_ProfileVersion: 1
+  m_LabelTable:
+    m_LabelNames:
+    - default
+    - button
+  m_SchemaTemplates: []
+  m_GroupTemplateObjects:
+  - {fileID: 11400000, guid: d19127767f73d421990389411074e5da, type: 2}
+  m_InitializationObjects: []
+  m_CertificateHandlerType:
+    m_AssemblyName: 
+    m_ClassName: 
+  m_ActivePlayerDataBuilderIndex: 3
+  m_DataBuilders:
+  - {fileID: 11400000, guid: 8e39f866e2cb24a8c8a50f29c6c2c2af, type: 2}
+  - {fileID: 11400000, guid: 2997ff5acdf5745fca721eab0859689b, type: 2}
+  - {fileID: 11400000, guid: 891bb6cfdb4144705ba90259a6b05fc7, type: 2}
+  - {fileID: 11400000, guid: 7a658b004cfc34b79a9e94c06d935de0, type: 2}
+  m_ActiveProfileId: ee48ffc768de84172914fbd0a623ade3
+  m_HostingServicesManager:
+    m_HostingServiceInfos: []
+    m_Settings: {fileID: 11400000}
+    m_NextInstanceId: 0
+    m_RegisteredServiceTypeRefs: []
+    m_PingTimeoutInMilliseconds: 5000
